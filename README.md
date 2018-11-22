@@ -1,0 +1,1 @@
+# CCNA_Lokaverkefni_2018H

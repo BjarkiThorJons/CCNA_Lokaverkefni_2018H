@@ -1,0 +1,8 @@
+Vörðu skóli:
+	Gera Vlan        	621 og 622, 623 og 624, 625 og 626, starfsmenn, 627 og 628, 629 og 630, 631 og 632
+	Gera Trunking	 	621 og 622, 623 og 624, 625 og 626, starfsmenn, 627 og 628, 629 og 630, 631 og 632, hæð 1, hæð2, hæð3, vörðuswitch
+	Ip fyrir management
+	Default gateway
+	Ssh
+	Slökkva á portum 
+	Port security

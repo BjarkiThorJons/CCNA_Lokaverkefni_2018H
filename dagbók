@@ -2,3 +2,6 @@
 Búa til routera og switcha, byrja á að setja upp vlan fyrir vörðusóla
 26.11.2018
 Bjó til vlön fyrir allar skólastöfur, starfsmenn og management í vörðuskóla og gerði öll trunk fyrir vlön í vörðuskóla
+29.11.2018
+Kláraði öll vlan í vörðuskóla, setti ip tölur fyrir management vlön á switchum og default gateway, subinterfaces fyrir vörðu routerinn í 
+vörðu og ip fyrir þau, slökkti á öllum ónotuðu portum á switchum í vörðuskóla, bjö til pc tölvur fyrir vörðu

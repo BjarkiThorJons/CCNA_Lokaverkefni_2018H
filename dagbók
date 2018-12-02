@@ -5,3 +5,5 @@ Bjó til vlön fyrir allar skólastöfur, starfsmenn og management í vörðusk�
 29.11.2018
 Kláraði öll vlan í vörðuskóla, setti ip tölur fyrir management vlön á switchum og default gateway, subinterfaces fyrir vörðu routerinn í 
 vörðu og ip fyrir þau, slökkti á öllum ónotuðu portum á switchum í vörðuskóla, bjö til pc tölvur fyrir vörðu
+02.12.2018 
+Gerði vlön fyrir HFJ og trunking

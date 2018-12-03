@@ -7,3 +7,5 @@ Kláraði öll vlan í vörðuskóla, setti ip tölur fyrir management vlön á 
 vörðu og ip fyrir þau, slökkti á öllum ónotuðu portum á switchum í vörðuskóla, bjö til pc tölvur fyrir vörðu
 02.12.2018 
 Gerði vlön fyrir HFJ og trunking
+03.12.2018
+gerði subinterfaces fyrir hfj router, setti ip tölur fyrir alla routera, bjó til tölvur fyrir hfj netið, planaði routing,

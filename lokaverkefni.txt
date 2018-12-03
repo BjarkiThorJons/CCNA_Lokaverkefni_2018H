@@ -1,3 +1,4 @@
+Seinasta ip er broadcast í netunum hér fyrir neðan
 Management Net:
 	Vörðu	192.168.99.0 - 192.168.99.63 /26
 	Aðal	192.168.99.64 - 192.168.99.127 /26
@@ -8,6 +9,20 @@ Starfsmanna Net:
 	Aðal	192.168.10.64 - 192.168.10.127 /26
 	HFJ	192.168.10.128 - 192.168.10.191 /26
 	Hát	192.168.10.192 - 192.178.10.255 /26
+IP routes:	
+	HFJ
+		192.168.64.0 255.255.248.0
+		192.168.99.128 255.255.255.192
+	HÁT	
+		192.168.128.0 255.255.248.0
+		192.168.99.192 255.255.255.192
+Routera ip tölur:
+	Varða-Skólavarða			10.10.0.0 - 10.10.0.3 /30
+	SkólavarðaInternal-SkólavarðaEdge	10.10.0.4 - 10.10.0.7 /30
+	SkólavarðaEdge-HFJ 1			10.10.0.8 - 10.10.0.11 /30
+	SKólavarðaEdge-HFJ 2			10.10.0.12 - 10.10.0.15 /30
+	SkólavarðaEdge-Hát 1			10.10.0.16 - 10.10.0.19 /30
+	SKólavarðaEdge-Hát 2			10.10.0.20 - 10.10.0.23 /30
 
 Vörðu skóli:
 	Gera Vlan        	621 og 622, 623 og 624, 625 og 626, starfsmenn, 627 og 628, 629 og 630, 631 og 632, hæð 1, hæð2, hæð3, vörðuswitch
@@ -36,3 +51,20 @@ Vörðu skóli:
 		3hæð	Management ip 192.168.99.11
 		vörðuswitch	Management ip 192.168.99.12
 		699	192.168.99.0 - 192.168.99.63 /26
+Hafnarfjörður:
+	Gera Vlan		701 og 702, 703 og 704, 705 og 706, starfsmenn
+	Gera Trunking		701 og 702, 703 og 704, 705 og 706, starfsmenn
+	Ip fyrir management
+	Default gateway
+	Ssh
+	Slökkva á portum
+	Port security
+	Net:
+		701	192.168.71.0 - 192.168.71.127 /25 Management ip 192.168.99.129
+		702	192.168.72.0 - 192.168.72.127 /25 Management ip 192.168.99.129
+		703	192.168.73.0 - 192.168.73.127 /25 Management ip 192.168.99.130
+		704	192.168.74.0 - 192.168.74.127 /25 Management ip 192.168.99.130
+		705	192.168.75.0 - 192.168.75.127 /25 Management ip 192.168.99.131
+		706	192.168.76.0 - 192.168.76.127 /25 Management ip 192.168.99.131
+		starfs	192.168.70.0 - 192.168.70.127 /25 Management ip 192.168.99.132
+		

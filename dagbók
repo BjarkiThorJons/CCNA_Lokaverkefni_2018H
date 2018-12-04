@@ -12,4 +12,5 @@ gerði subinterfaces fyrir hfj router, setti ip tölur fyrir alla routera, bjó 
 HFJ switcha
 04.12.2018
 Kláraði öll vlan fyrir Hafnarfjörð og Hátegisveg, gerði trunking fyir HÁT,ssh fyrir HFJ,HÁT,Vörðu switcha, password fyrir HFJ og Vörðu
-á switcha, default gateway fyrir HFJ og HÁT switcha, management ip fyrir HÁT og HFJ switcha
+á switcha, default gateway fyrir HFJ og HÁT switcha, management ip fyrir HÁT og HFJ switcha, router rip fyrir Varða-Main og 
+Skólavarða-internal

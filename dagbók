@@ -16,4 +16,4 @@ Kláraði öll vlan fyrir Hafnarfjörð og Hátegisveg, gerði trunking fyir HÁ
 Skólavarða-internal og skólavarða-Edge, password-encryption á HFJ og Vörðu switcha, gerði dhcp server á skólavarða-internal með öllum 
 pools og gerði viðeigandi helpers, static route fyrir hfj, hát og skólavarða-edgerouterana
 05.12.2018
-Kláraði Hát vlan alveg, setti password og password-encryption fyrir HÁT switcha
+Kláraði Hát vlan alveg, setti password og password-encryption fyrir HÁT switcha, gerði net fyrir skólavörðu skrifstofur, 

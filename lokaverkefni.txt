@@ -1,9 +1,9 @@
 Seinasta ip er broadcast í netunum hér fyrir neðan
 Server Net:
-	Starfsmenn 192.168.254.0 - 192.168.99.63 /26
-	DNS	   192.168.254.64 - 192.168.99.127 /26
-	MAIL       192.168.254.128 - 192.168.99.191 /26
-	WEB        192.168.254.192 - 192.178.99.255 /26
+	Starfsmenn 192.168.254.0 - 192.168.254.63 /26
+	DNS	   192.168.254.64 - 192.168.254.127 /26
+	MAIL       192.168.254.128 - 192.168.254.191 /26
+	WEB        192.168.254.192 - 192.168.254.255 /26
 Management Net:
 	Vörðu	192.168.99.0 - 192.168.99.63 /26
 	Aðal	192.168.99.64 - 192.168.99.127 /26
@@ -93,3 +93,11 @@ Hátdegisvegur
 		806	192.168.133.0 - 192.168.33.127 /25 Management ip 192.168.99.196
 		starfs	192.168.10.192 - 192.168.10.255 /25 Management ip 192.168.99.197
 		main Management ip 192.168.99.198
+Skólavarða servers
+	Gera Vlan
+	Gera Trunking
+	Ip fyrir management
+	Default gatewau
+	ssh
+	Slökkva á portum
+	password pass.123

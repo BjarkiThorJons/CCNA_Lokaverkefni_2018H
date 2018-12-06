@@ -17,3 +17,5 @@ Skólavarða-internal og skólavarða-Edge, password-encryption á HFJ og Vörð
 pools og gerði viðeigandi helpers, static route fyrir hfj, hát og skólavarða-edgerouterana
 05.12.2018
 Kláraði Hát vlan alveg, setti password og password-encryption fyrir HÁT switcha, gerði net fyrir skólavörðu skrifstofur, 
+06.12.2018
+Gerði alla serverana og bætti við dns í dhcp poolin, gerði access lista fyir starfsmanna server svo aðeins starfsmenn geta tengst honum
